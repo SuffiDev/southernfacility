@@ -11,7 +11,7 @@ const App = () => {
   return (
     <WebView
       source={{ uri: 'https://www.southernfacility.com' }}
-      style={{ marginTop: 40 }}
+      style={{}}
     />
   )
 }

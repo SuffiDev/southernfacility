@@ -1,4 +1,4 @@
-package com.app_southernfacility;
+package com.app_southernfacility_sf;
 
 import android.app.Application;
 import android.content.Context;

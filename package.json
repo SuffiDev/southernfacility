@@ -1,5 +1,5 @@
 {
-  "name": "app_southernfacility",
+  "name": "app_southernfacility_sf",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.2",
+    "react-native-flipper": "^0.57.0",
     "react-native-webview": "^10.8.2"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.app_southernfacility">
+  package="com.app_southernfacility_sf">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

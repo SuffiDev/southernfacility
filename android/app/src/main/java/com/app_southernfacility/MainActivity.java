@@ -1,4 +1,4 @@
-package com.app_southernfacility;
+package com.app_southernfacility_sf;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "app_southernfacility";
+    return "app_southernfacility_sf";
   }
 }
