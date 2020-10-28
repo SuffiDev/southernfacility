@@ -7,13 +7,19 @@ import {
   StatusBar,
 } from 'react-native'
 import WebView from 'react-native-webview'
-const App = () => {
-  return (
-    <WebView
-      source={{ uri: 'https://www.southernfacility.com' }}
-      style={{}}
-    />
-  )
-}
+import SplashScreen from 'react-native-splash-screen'
+export default class WelcomePage extends Component {
 
-export default App
+  componentDidMount() {
+    // do stuff while splash screen is shown
+      // After having done stuff (such as async tasks) hide the splash screen
+      SplashScreen.hide();
+  }render() {
+    return (
+      <WebView
+        source={{ uri: 'https://www.southernfacility.com' }}
+        style={{}}
+      />
+    )
+  }
+}
