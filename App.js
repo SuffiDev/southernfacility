@@ -17,7 +17,7 @@ export default class WelcomePage extends Component {
   }render() {
     return (
       <WebView
-        source={{ uri: 'https://www.southernfacility.com' }}
+        source={{ uri: 'https://www.southernfacility.com/app/' }}
         style={{}}
       />
     )
